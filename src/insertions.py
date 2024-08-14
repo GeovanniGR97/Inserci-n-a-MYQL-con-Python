@@ -1,6 +1,7 @@
 from  mysql.connector import Error
 import mysql.connector
-
+from random_data import data
+print(data)
 try:
     connection = mysql.connector.connect(
         host='localhost',
